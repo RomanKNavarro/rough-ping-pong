@@ -1,2 +1,2 @@
 # rough-ping-pong
-Need to further fix collision
+Everything works fine but the collision gets glitchy.
