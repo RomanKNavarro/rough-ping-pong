@@ -27,7 +27,10 @@ export default class Paddle {
   }
 
   draw(cxt) {
-    cxt.fillStyle = "#0ff"; // FOLLOWS RGB FORMAT
+    //cxt.fillStyle = "#fff"; // FOLLOWS RGB FORMAT
+    cxt.fillStyle = "#808080";
+    cxt.lineWidth = 5;
+    cxt.strokeStyle = "black";
     cxt.fillRect(this.position.x, this.position.y, this.width, this.height); // Draws the paddle
   }
 
